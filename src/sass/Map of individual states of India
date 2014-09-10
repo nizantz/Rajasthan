@@ -1,0 +1,23 @@
+Map of individual states of India
+
+As a follow up on my previous post http://www.knowstack.com/d3-map-of-india/, 
+in this post am going to talk about creating maps of individual states on India.
+
+As an example I have picked up Rajasthan.
+
+Follow Steps 1 to 4 remain as explained in http://www.knowstack.com/d3-map-of-india/
+
+Now we extract the data for the state for which we want to build the map, from the SHAPE data for INDIA, in JSON format. Go to the IND_ADM folder (see steps 1 to 5 in http://www.knowstack.com/d3-map-of-india/) and run the following command line :
+
+ogr2ogr -f GeoJSON -where "NAME_1 IN ('Rajasthan')" raj.json IND_adm1.shp
+
+This will generate the json data for State of Rajasthan
+
+
+
+
+
+
+
+
+
