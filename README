@@ -1,0 +1,33 @@
+# Map of Rajasthan
+
+## Install Brew to install node 
+
+1. Install [brew](http://brew.sh/)
+
+```
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+```
+
+2. Install git and node.
+
+```
+brew install git node
+```
+
+3. Checkout out project.
+
+```
+git clone https://github.com/nizantz/Rajasthan.git
+```
+
+4. Run test server.
+
+```
+cd Rajasthan
+sudo npm install
+gulp
+```
+
+5. Open in browser.
+
+http://localhost:9090/
