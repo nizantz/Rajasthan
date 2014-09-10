@@ -1,8 +1,14 @@
-# Map of Rajasthan
+Map of Rajasthan
+----------------
 
-## Install Brew to install node  on Mac OSX
-===========================================
-1. Install [brew](http://brew.sh/)
+Setup (on Mac OS X):
+===================
+Install Node (http://nodejs.org/). Use HomeBrew (http://brew.sh/) to install node.
+
+##Open Terminal on Mac OS X and Run the following
+```haskell
+$brew install node
+```
 
 ```haskell
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
